@@ -18,6 +18,12 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<distributionManagement>  
+	  <snapshotRepository>
+		  <id>login-snapshot</id>
+		  <url>http://localhost:8081/repository/login-snapshot/</url>
+	 </snapshotRepository>
+    </distributionManagement>
 
 	<dependencies>
 		<dependency>
